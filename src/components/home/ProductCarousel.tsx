@@ -123,31 +123,26 @@ export function ProductCarousel() {
 
               {/* Slides */}
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-                {slides.map((s, i) => {
-                  const slideStyle = divisionSlideStyle[s.division];
-                  return (
-                    <div
-                      key={s.id}
-                      className={cn(
-                        "absolute inset-0 transition-all duration-500 bg-gradient-to-br",
-                        slideStyle.glowColor,
-                        "to-white/5",
-                        i === current
-                          ? "opacity-100 scale-100"
-                          : "opacity-0 scale-95"
-                      )}
-                    >
-                      <Image
-                        src={s.image}
-                        alt={s.name}
-                        fill
-                        className="object-contain"
-                        sizes="(max-width: 768px) 90vw, 42vw"
-                        priority={i === 0}
-                      />
-                    </div>
-                  );
-                })}
+                {slides.map((s, i) => (
+                  <div
+                    key={s.id}
+                    className={cn(
+                      "absolute inset-0 transition-all duration-500",
+                      i === current
+                        ? "opacity-100 scale-100"
+                        : "opacity-0 scale-95"
+                    )}
+                  >
+                    <Image
+                      src={s.image}
+                      alt={s.name}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 90vw, 42vw"
+                      priority={i === 0}
+                    />
+                  </div>
+                ))}
               </div>
             </div>
 
