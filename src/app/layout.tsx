@@ -6,6 +6,7 @@ import "./globals.css";
 const GA_MEASUREMENT_ID = "G-0SPHTNMFBB";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -87,6 +88,7 @@ export default function RootLayout({
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
+        <WhatsAppButton />
       </body>
     </html>
   );
