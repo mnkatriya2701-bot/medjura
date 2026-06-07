@@ -11,16 +11,6 @@
       "icon": "bone"
     },
     {
-      "id": "physicians",
-      "name": "Physicians Division",
-      "label": "PHYSICIANS",
-      "tagline": "Synergy Across Specialties",
-      "description": "Versatile cross-specialty formulations trusted by general practitioners and physicians for comprehensive patient management — bridging orthopedic, gynecological, and systemic health needs.",
-      "color": "teal",
-      "accentColor": "green",
-      "icon": "stethoscope"
-    },
-    {
       "id": "gynec",
       "name": "Gynec Division",
       "label": "GYNEC",
@@ -29,6 +19,16 @@
       "color": "purple",
       "accentColor": "green",
       "icon": "heart"
+    },
+    {
+      "id": "physicians",
+      "name": "Physicians Division",
+      "label": "PHYSICIANS",
+      "tagline": "Synergy Across Specialties",
+      "description": "Versatile cross-specialty formulations trusted by general practitioners and physicians for comprehensive patient management — bridging orthopedic, gynecological, and systemic health needs.",
+      "color": "teal",
+      "accentColor": "green",
+      "icon": "stethoscope"
     }
   ],
   "products": [
@@ -247,7 +247,7 @@
       ],
       "dosage": "1 Tab OD",
       "packSize": "10 Tablets/Strip",
-      "image": "/images/products/vamachol-xt.jpg",
+      "image": "/images/products/vamachol-xt.jpeg",
       "featured": true,
       "slide": true
     },
@@ -379,7 +379,7 @@
       "division": "physicians",
       "tagline": "Orthopedic, Gynec, and Physicians Synergy for Total Health",
       "headline": "The Bridge Between Orthopedic, Gynec & Physicians Care",
-      "description": "Advanced amino-chelated Magnesium Glycine with Vitamin D3 — a universal formulation trusted by orthopedic surgeons, gynecologists, and physicians alike for bone health, muscle function, and overall systemic wellness.",
+      "description": "Advanced amino-chelated Magnesium Glycine with Vitamin D3 — addressing the common, overlooked, and under-diagnosed Intracellular Subclinical Magnesium Deficiency (SMD). A growing body of evidence supports oral magnesium supplementation in the prevention and management of metabolic and cardiovascular diseases, promoting cardiometabolic health, better stress, anxiety and sleep management, and improving Vitamin D status — backed by superior bioavailability and minimal GI side effects versus conventional Mg salts.",
       "composition": "Magnesium Glycine equivalent to Elemental Magnesium 250mg + Vitamin D3 1000 IU",
       "keyIngredients": [
         {
@@ -402,17 +402,163 @@
         }
       ],
       "indications": [
-        "Magnesium deficiency",
-        "Bone health support",
-        "Muscle weakness & cramps",
-        "General wellness supplementation",
-        "Pre/Post-operative support",
-        "Chronic fatigue management"
+        "Subclinical Magnesium Deficiency (SMD)",
+        "Diabetes Mellitus and Hypertension — improves insulin sensitivity, FBS and HbA1c",
+        "Cardiometabolic and cardiovascular risk reduction",
+        "Stress, anxiety and sleep management",
+        "Vitamin D deficiency correction",
+        "Musculoskeletal pain, fracture recovery and osteoporosis"
       ],
       "dosage": "1 to 2 Tablets/Day",
       "packSize": "1×10 Tablets",
       "image": "/images/products/auramag-d.jpeg",
       "featured": true,
+      "slide": false
+    },
+    {
+      "id": "jointcync-physicians",
+      "name": "Jointcync",
+      "division": "physicians",
+      "tagline": "Comprehensive Joint Care for Every Specialty",
+      "headline": "For Effective and Targeted Relief in Painful Osteoarthritis",
+      "description": "A synergistic joint care formula combining Veg Collagen Type II, Ginger extract, Astaxanthin, L-Citrulline and L-Glutamine — recommended by physicians for patients presenting with osteoarthritis, age-related joint degeneration, and post-traumatic joint pain who need cartilage support alongside systemic care.",
+      "composition": "Veg Collagen Type II 40mg, Ginger Extract 500mg, L-Citrulline 500mg, L-Glutamine 50mg, Curcuminoids 180mg, Astaxanthin 4mg",
+      "keyIngredients": [
+        {
+          "name": "Veg Collagen Type II (40mg)",
+          "benefits": [
+            "Supports cartilage regeneration",
+            "Improves joint flexibility"
+          ]
+        },
+        {
+          "name": "Ginger Extract + Curcuminoids (500mg + 180mg)",
+          "benefits": [
+            "Potent anti-inflammatory and antioxidant",
+            "Protects cartilage degradation",
+            "Reduces pain and stiffness"
+          ]
+        },
+        {
+          "name": "Astaxanthin (4mg)",
+          "benefits": [
+            "Powerful antioxidant",
+            "Reduces oxidative stress in joints"
+          ]
+        },
+        {
+          "name": "L-Citrulline + L-Glutamine (500mg + 50mg)",
+          "benefits": [
+            "Boosts nitric oxide for improved blood flow",
+            "Enhances mobility and muscle performance",
+            "Supports tissue repair"
+          ]
+        }
+      ],
+      "indications": [
+        "Painful osteoarthritis",
+        "Age-related joint degeneration",
+        "Improves range of motion and quality of life",
+        "Supports faster recovery in OA patients",
+        "Enhances cartilage protection"
+      ],
+      "dosage": "1 Tablet Per Day",
+      "packSize": "10 Tablets/Strip",
+      "image": "/images/products/jointcync.jpeg",
+      "featured": false,
+      "slide": false
+    },
+    {
+      "id": "mytocarn-t-plus-physicians",
+      "name": "Mytocarn T+",
+      "division": "physicians",
+      "tagline": "A Myocardial Energiser and Nerve Repair Formula",
+      "headline": "Repair the Nerve — Energise the Muscle",
+      "description": "A dual-action formula pairing L-Carnitine L-Tartrate and Tocotrienols — The Dual Cell Energizer — with full therapeutic-dose Methylcobalamin. Recommended by physicians for patients with metabolic disorders facing cardiovascular risk, congestive heart failure, chronic fatigue syndrome, muscle cramps, and nerve-related complications, because pain relief is temporary but recovery needs repair.",
+      "composition": "L-Carnitine L-Tartrate 500mg, Tocotrienols 60mg, Vitamin B6 1.5mg, Methylcobalamin 1500mcg, L-Methyl Folate 400mcg",
+      "keyIngredients": [
+        {
+          "name": "Methylcobalamin (1500mcg) + L-Methyl Folate + Vitamin B6",
+          "benefits": [
+            "Helps maintain and control homocysteine levels",
+            "Helps reduce risk of cardiovascular complications",
+            "Regenerates damaged nerves and reduces neuropathic pain"
+          ]
+        },
+        {
+          "name": "Tocotrienols (60mg) — superior form of Vitamin E",
+          "benefits": [
+            "Reduces atherosclerotic lesions for cardiovascular health",
+            "Reduces vascular oxidative stress",
+            "Inhibits plaque progression"
+          ]
+        },
+        {
+          "name": "L-Carnitine L-Tartrate (500mg)",
+          "benefits": [
+            "Helps increase left ventricular ejection fraction (LVEF)",
+            "Reduces anginal symptoms by up to 40%",
+            "Decreases CHF symptoms — dyspnea, palpitations, fatigue and edema"
+          ]
+        }
+      ],
+      "indications": [
+        "Congestive heart failure and ischemic heart disease — a myocardial energiser",
+        "Ventricular dysfunction",
+        "Chronic fatigue syndrome and muscle cramps",
+        "Metabolic disorders with cardiovascular risk",
+        "Post-fracture / post-surgery recovery and rehabilitation",
+        "Sciatica, radiculopathy and neuropathic pain"
+      ],
+      "dosage": "1 Tablet a day for 3-6 months",
+      "packSize": "10 Tablets/Strip",
+      "image": "/images/products/mytocarn-t-plus.jpg",
+      "featured": false,
+      "slide": false
+    },
+    {
+      "id": "chalixjura-physicians",
+      "name": "Chalixjura",
+      "division": "physicians",
+      "tagline": "Where Calcium Meets Absorption Science",
+      "headline": "For Superior and Comprehensive Management of Metabolic Syndrome",
+      "description": "A Calcium Citrate-based chewable tablet with Magnesium Sulphate, Zinc and Vitamin D — 2.5x more absorbable than calcium carbonate with minimal GI side effects. Recommended by physicians to help prevent the risk and severity of metabolic syndrome, optimize systolic and diastolic blood pressure, and maintain thyroid homeostasis, alongside fracture healing, post-surgical recovery, and bone health support. Available in American Icecream flavor for better patient compliance.",
+      "composition": "Calcium Citrate 1250mg, Magnesium Sulphate 100mg, Elemental Zinc 4mg, Vitamin D 200 IU",
+      "keyIngredients": [
+        {
+          "name": "Calcium Citrate (1250mg)",
+          "benefits": [
+            "2.5x more absorbable than Calcium Carbonate",
+            "Minimal G.I. side effects"
+          ]
+        },
+        {
+          "name": "Magnesium Sulphate (100mg)",
+          "benefits": [
+            "Helps calcium absorption and bone mineralization",
+            "Reduces muscle cramps and improves neuromuscular function"
+          ]
+        },
+        {
+          "name": "Vitamin D (200 IU) + Zinc (4mg)",
+          "benefits": [
+            "Facilitates calcium absorption and maintains serum calcium balance",
+            "Supports bone matrix formation and tissue repair"
+          ]
+        }
+      ],
+      "indications": [
+        "Metabolic syndrome — prevention and management",
+        "Optimizing systolic and diastolic blood pressure",
+        "Thyroid homeostasis support",
+        "Fracture healing and post-surgical recovery",
+        "Osteoporosis and osteopenia"
+      ],
+      "dosage": "1 Tablet/day",
+      "packSize": "30 Tablets",
+      "form": "Chewable Tablet — American Icecream Flavor",
+      "image": "/images/products/chalixjura.jpeg",
+      "featured": false,
       "slide": false
     }
   ]

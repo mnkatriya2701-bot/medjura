@@ -96,14 +96,14 @@ export function Footer() {
                   {line1}, {line2}, {city}, {state} – {pincode}
                 </span>
               </li>
-              {headquarters.contact.phone && (
-                <li className="flex gap-3 text-sm text-white/70">
+              {(headquarters.contact.phones ?? [headquarters.contact.phone]).map((phone) => (
+                <li key={phone} className="flex gap-3 text-sm text-white/70">
                   <Phone className="w-4 h-4 text-medjura-teal shrink-0 mt-0.5" />
-                  <a href={`tel:${headquarters.contact.phone}`} className="hover:text-white transition-colors">
-                    {headquarters.contact.phone}
+                  <a href={`tel:${phone}`} className="hover:text-white transition-colors">
+                    {phone}
                   </a>
                 </li>
-              )}
+              ))}
               <li className="flex gap-3 text-sm text-white/70">
                 <Mail className="w-4 h-4 text-medjura-teal shrink-0 mt-0.5" />
                 <a href={`mailto:${company.email}`} className="hover:text-white transition-colors">

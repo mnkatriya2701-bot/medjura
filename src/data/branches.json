@@ -25,6 +25,7 @@
     },
     "contact": {
       "phone": "+91 74052 78264",
+      "phones": ["+91 74052 78264", "+91 73591 17669", "+91 99256 96085"],
       "email": "medjuralifecare@gmail.com"
     },
     "coordinates": {
