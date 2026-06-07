@@ -19,6 +19,8 @@ export interface Product {
   id: string;
   name: string;
   division: DivisionId;
+  /** All divisions this product is positioned in — used to show multiple badges (e.g. on the homepage slider). Defaults to [division] when omitted. */
+  divisions?: DivisionId[];
   tagline: string;
   description: string;
   composition: string;

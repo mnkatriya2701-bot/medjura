@@ -40,6 +40,7 @@ export function ProductCarousel() {
   }, [next]);
 
   const slide = slides[current];
+  const slideDivisions = slide.divisions ?? [slide.division];
   const style = divisionSlideStyle[slide.division];
 
   return (
@@ -148,9 +149,19 @@ export function ProductCarousel() {
 
             {/* Glassmorphism product info card */}
             <div className="w-full max-w-[380px] bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl px-6 py-4 text-center shadow-xl">
-              <span className={cn("inline-block text-[10px] font-bold uppercase tracking-[0.15em] px-3 py-1 rounded-full text-white mb-2", style.badgeClass)}>
-                {style.label}
-              </span>
+              <div className="flex items-center justify-center gap-1.5 mb-2 flex-wrap">
+                {slideDivisions.map((divId) => (
+                  <span
+                    key={divId}
+                    className={cn(
+                      "inline-block text-[10px] font-bold uppercase tracking-[0.15em] px-3 py-1 rounded-full text-white",
+                      divisionSlideStyle[divId].badgeClass
+                    )}
+                  >
+                    {divisionSlideStyle[divId].label}
+                  </span>
+                ))}
+              </div>
               <h3 className="text-white text-xl font-extrabold" style={{ fontFamily: "var(--font-plus-jakarta)" }}>
                 {slide.name}
               </h3>

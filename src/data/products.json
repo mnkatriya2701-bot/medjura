@@ -82,7 +82,11 @@
       "packSize": "10 Tablets/Strip",
       "image": "/images/products/jointcync.jpeg",
       "featured": true,
-      "slide": true
+      "slide": true,
+      "divisions": [
+        "ortho",
+        "physicians"
+      ]
     },
     {
       "id": "auramag-d",
@@ -123,7 +127,11 @@
       "packSize": "1×10 Tablets",
       "image": "/images/products/auramag-d.jpeg",
       "featured": true,
-      "slide": true
+      "slide": true,
+      "divisions": [
+        "ortho",
+        "physicians"
+      ]
     },
     {
       "id": "mytocarn-t-plus",
@@ -165,7 +173,11 @@
       "packSize": "10 Tablets/Strip",
       "image": "/images/products/mytocarn-t-plus.jpg",
       "featured": false,
-      "slide": true
+      "slide": true,
+      "divisions": [
+        "ortho",
+        "physicians"
+      ]
     },
     {
       "id": "chalixjura",
@@ -210,7 +222,11 @@
       "form": "Chewable Tablet — American Icecream Flavor",
       "image": "/images/products/chalixjura.jpeg",
       "featured": true,
-      "slide": true
+      "slide": true,
+      "divisions": [
+        "gynec",
+        "ortho"
+      ]
     },
     {
       "id": "vamachol-xt",
@@ -249,7 +265,10 @@
       "packSize": "10 Tablets/Strip",
       "image": "/images/products/vamachol-xt.jpeg",
       "featured": true,
-      "slide": true
+      "slide": true,
+      "divisions": [
+        "gynec"
+      ]
     },
     {
       "id": "primovelle",
@@ -286,7 +305,11 @@
       "packSize": "1×10 Capsules",
       "image": "/images/products/primovelle.jpeg",
       "featured": true,
-      "slide": true
+      "slide": true,
+      "divisions": [
+        "gynec",
+        "physicians"
+      ]
     },
     {
       "id": "auramag-d-gynec",
@@ -332,7 +355,7 @@
     {
       "id": "chalixjura-gynec",
       "name": "Chalixjura",
-      "division": "gynec,ortho,physicians",
+      "division": "gynec",
       "tagline": "Where Calcium Meets Absorption Science",
       "headline": "In Pregnancy, Lactation, Osteoporosis and Post Menopausal Women",
       "description": "Highly absorbable Calcium Citrate with Magnesium, Zinc and Vitamin D in a patient-friendly chewable tablet — meeting the elevated calcium needs during pregnancy, lactation and menopause.",
