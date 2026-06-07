@@ -1,0 +1,69 @@
+{
+  "company": {
+    "name": "Medjura Lifecare Pvt. Limited",
+    "shortName": "Medjura Lifecare",
+    "tagline": "Where Medicine....... Meets Justice......",
+    "founded": "2020",
+    "cin": "",
+    "gstin": "",
+    "email": "medjuralifecare@gmail.com",
+    "phone": "+91 74052 78264",
+    "website": "https://medjuralifecre.com"
+  },
+  "headquarters": {
+    "id": "hq-ahmedabad",
+    "name": "Head Office — Ahmedabad",
+    "type": "headquarters",
+    "address": {
+      "line1": "GF-14, Shree Ratna Complex",
+      "line2": "Near Krishnanagar Bus Stand, Akhbarnagar Road, Nava Vadaj",
+      "city": "Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380013",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91 74052 78264",
+      "email": "medjuralifecare@gmail.com"
+    },
+    "coordinates": {
+      "lat": 23.0637,
+      "lng": 72.5669
+    },
+    "mapUrl": "",
+    "active": true
+  },
+  "branches": [
+    {
+      "id": "branch-ahmedabad",
+      "name": "Ahmedabad Branch",
+      "type": "branch",
+      "region": "Central Gujarat",
+      "address": {
+        "line1": "GF-14, Shree Ratna Complex",
+        "line2": "Near Krishnanagar Bus Stand, Akhbarnagar Road, Nava Vadaj",
+        "city": "Ahmedabad",
+        "district": "Ahmedabad",
+        "state": "Gujarat",
+        "pincode": "380013",
+        "country": "India"
+      },
+      "contact": {
+        "phone": "+91 74052 78264",
+        "email": "ahmedabad@medjuralifecre.com",
+        "mr": ""
+      },
+      "image": "/images/branches/ahmedabad.jpg",
+      "active": true
+    }
+  ],
+  "coverageAreas": [
+    "Ahmedabad",
+    "Gandhinagar",
+    "Anand",
+    "Vadodara",
+    "Surat",
+    "Rajkot"
+  ]
+}

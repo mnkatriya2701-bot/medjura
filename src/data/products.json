@@ -1,0 +1,419 @@
+{
+  "divisions": [
+    {
+      "id": "ortho",
+      "name": "Orthopedic Division",
+      "label": "ORTHOPEDIC",
+      "tagline": "Strength for Every Joint",
+      "description": "Advanced orthopedic formulations targeting cartilage repair, bone strength, nerve recovery, and musculoskeletal wellness.",
+      "color": "navy",
+      "accentColor": "red",
+      "icon": "bone"
+    },
+    {
+      "id": "physicians",
+      "name": "Physicians Division",
+      "label": "PHYSICIANS",
+      "tagline": "Synergy Across Specialties",
+      "description": "Versatile cross-specialty formulations trusted by general practitioners and physicians for comprehensive patient management — bridging orthopedic, gynecological, and systemic health needs.",
+      "color": "teal",
+      "accentColor": "green",
+      "icon": "stethoscope"
+    },
+    {
+      "id": "gynec",
+      "name": "Gynec Division",
+      "label": "GYNEC",
+      "tagline": "Care for Every Stage of Life",
+      "description": "Comprehensive women's health formulations for preconception, pregnancy, lactation, and beyond.",
+      "color": "purple",
+      "accentColor": "green",
+      "icon": "heart"
+    }
+  ],
+  "products": [
+    {
+      "id": "jointcync",
+      "name": "Jointcync",
+      "division": "ortho",
+      "tagline": "Comprehensive Joint Care Formula",
+      "headline": "For Effective & Targeted relief in Painful Osteoarthritis",
+      "description": "A synergistic joint care formula combining Veg Collagen Type II, Ginger extract, Astaxanthin, L-Citrulline and L-Glutamine — targeting cartilage damage, inflammation, and oxidative stress together.",
+      "composition": "Veg Collagen Type II 40mg, Ginger Extract 500mg, L-Citrulline 500mg, L-Glutamine 50mg, Curcuminoids 180mg, Astaxanthin 4mg",
+      "keyIngredients": [
+        {
+          "name": "Veg Collagen Type II (40mg)",
+          "benefits": [
+            "Supports cartilage regeneration",
+            "Improves joint flexibility"
+          ]
+        },
+        {
+          "name": "Ginger Extract + Curcuminoids (500mg + 180mg)",
+          "benefits": [
+            "Potent anti-inflammatory & antioxidant",
+            "Protects cartilage degradation",
+            "Reduces pain & stiffness"
+          ]
+        },
+        {
+          "name": "Astaxanthin (4mg)",
+          "benefits": [
+            "Powerful antioxidant",
+            "Reduces oxidative stress in joints"
+          ]
+        },
+        {
+          "name": "L-Citrulline + L-Glutamine (500mg + 50mg)",
+          "benefits": [
+            "Boosts nitric oxide for improved blood flow",
+            "Enhances mobility & muscle performance",
+            "Supports tissue repair"
+          ]
+        }
+      ],
+      "indications": [
+        "Painful Osteoarthritis",
+        "Post-traumatic Osteoarthritis",
+        "Age-related joint degeneration",
+        "Post-TJR to prevent subsidence of prosthesis"
+      ],
+      "dosage": "1 Tablet Per Day",
+      "packSize": "10 Tablets/Strip",
+      "image": "/images/products/jointcync.jpeg",
+      "featured": true,
+      "slide": true
+    },
+    {
+      "id": "auramag-d",
+      "name": "Auramag D",
+      "division": "ortho",
+      "tagline": "Orthopedic, Gynec & Physicians Synergy for Total Health",
+      "headline": "Optimizes Mg — Mitigates Complications",
+      "description": "Advanced amino-chelated Magnesium Glycine with Vitamin D3 — offering superior absorption, better GI tolerability, and enhanced bioavailability for bone, muscle, and nerve health.",
+      "composition": "Magnesium Glycine equivalent to Elemental Magnesium 250mg + Vitamin D3 1000 IU",
+      "keyIngredients": [
+        {
+          "name": "Magnesium Glycine (250mg elemental Mg)",
+          "benefits": [
+            "Superior absorption vs oxide/carbonate",
+            "Better gastrointestinal tolerability",
+            "Complements calcium therapy",
+            "Improves neuromuscular balance"
+          ]
+        },
+        {
+          "name": "Vitamin D3 (1000 IU)",
+          "benefits": [
+            "Bone matrix formation & mineralization",
+            "Enzymatic reactions in tissue repair",
+            "Enhances calcium absorption for bone regeneration"
+          ]
+        }
+      ],
+      "indications": [
+        "Fracture recovery",
+        "Osteopenia",
+        "Elderly bone weakness",
+        "Musculoskeletal pain",
+        "Osteoporosis",
+        "Postmenopausal bone loss"
+      ],
+      "dosage": "1 to 2 Tablets/Day",
+      "packSize": "1×10 Tablets",
+      "image": "/images/products/auramag-d.jpeg",
+      "featured": true,
+      "slide": true
+    },
+    {
+      "id": "mytocarn-t-plus",
+      "name": "Mytocarn T+",
+      "division": "ortho",
+      "tagline": "Not just pain control… but tissue-level repair",
+      "headline": "Repair the Nerve — Energise the Muscle",
+      "description": "A dual-action formula combining L-Carnitine L-Tartrate and Tocotrienols with full therapeutic dose Methylcobalamin — addressing both nerve repair and muscle energy at the cellular level.",
+      "composition": "L-Carnitine L-Tartrate 500mg, Tocotrienols 60mg, Vitamin B6 1.5mg, Methylcobalamin 1500mcg, L-Methyl Folate 400mcg",
+      "keyIngredients": [
+        {
+          "name": "Methylcobalamin (1500mcg) + L-Methyl Folate + Vitamin B6",
+          "benefits": [
+            "Regenerates damaged nerves",
+            "Reduces tingling, numbness & neuropathic pain",
+            "Improves cell repair & protein metabolism",
+            "Supports nerve sheath healing"
+          ]
+        },
+        {
+          "name": "L-Carnitine L-Tartrate (500mg) + Tocotrienols (60mg)",
+          "benefits": [
+            "Enhances mitochondrial energy (ATP)",
+            "Improves muscle strength & reduces fatigue",
+            "Helps in faster rehabilitation",
+            "Reduces inflammation & supports healing"
+          ]
+        }
+      ],
+      "indications": [
+        "Post-fracture",
+        "Post-surgery",
+        "Sciatica",
+        "Radiculopathy",
+        "Muscle weakness",
+        "Joint pain with nerve involvement"
+      ],
+      "dosage": "1 Tablet a day for 3–6 months",
+      "packSize": "10 Tablets/Strip",
+      "image": "/images/products/mytocarn-t-plus.jpg",
+      "featured": false,
+      "slide": true
+    },
+    {
+      "id": "chalixjura",
+      "name": "Chalixjura",
+      "division": "ortho",
+      "tagline": "Where Calcium Meets Absorption Science",
+      "headline": "In Fracture Healing, Post-Surgical Recovery, Osteoporosis & Osteopenia",
+      "description": "Calcium Citrate-based chewable tablet with Magnesium Sulphate, Zinc and Vitamin D — 2.5× more absorbable calcium with minimal GI side effects. Available in American Icecream Flavor.",
+      "composition": "Calcium Citrate 1250mg, Magnesium Sulphate 100mg, Elemental Zinc 4mg, Vitamin D 200 IU",
+      "keyIngredients": [
+        {
+          "name": "Calcium Citrate (1250mg)",
+          "benefits": [
+            "2.5× more absorbable than Calcium Carbonate",
+            "Minimal G.I. side effects"
+          ]
+        },
+        {
+          "name": "Magnesium Sulphate (100mg)",
+          "benefits": [
+            "Helps calcium absorption and bone mineralization",
+            "Reduces muscle cramps & improves neuromuscular function"
+          ]
+        },
+        {
+          "name": "Vitamin D (200 IU) + Zinc (4mg)",
+          "benefits": [
+            "Facilitates calcium absorption",
+            "Supports bone matrix formation",
+            "Promotes tissue repair & healing"
+          ]
+        }
+      ],
+      "indications": [
+        "Fracture healing",
+        "Post-surgical recovery",
+        "Osteoporosis",
+        "Osteopenia"
+      ],
+      "dosage": "1 Tablet/day",
+      "packSize": "30 Tablets",
+      "form": "Chewable Tablet — American Icecream Flavor",
+      "image": "/images/products/chalixjura.jpeg",
+      "featured": true,
+      "slide": true
+    },
+    {
+      "id": "vamachol-xt",
+      "name": "Vamachol-XT",
+      "division": "gynec",
+      "tagline": "For Healthy Formation & Smarter Beginnings",
+      "headline": "For Optimized Support Across Preconception, Pregnancy & Lactation",
+      "description": "A FOLATE-CHOLINE duo promoting superior methyl transfer — supporting early embryogenesis, neural & cognitive development, placental function, and reducing risk of PE, FGR and GDM.",
+      "composition": "(6S)-5-Methyltetrahydrofolic Acid Glucosamine Salt, Choline Bitartrate, Pyridoxal-5-Phosphate, Vitamin B12",
+      "keyIngredients": [
+        {
+          "name": "(6S)-5-Methyltetrahydrofolic Acid Glucosamine Salt",
+          "benefits": [
+            "Active bioavailable folate form",
+            "Supports early embryogenesis & foetal development",
+            "Superior to synthetic folic acid"
+          ]
+        },
+        {
+          "name": "Choline Bitartrate",
+          "benefits": [
+            "Promotes neural & cognitive development",
+            "Supports placental function",
+            "Reduces risk of Pre-eclampsia, FGR, GDM"
+          ]
+        }
+      ],
+      "indications": [
+        "Preconception",
+        "First trimester supplementation",
+        "Neural tube defect prevention",
+        "Placental health",
+        "Pregnancy-induced hypertension risk reduction"
+      ],
+      "dosage": "1 Tab OD",
+      "packSize": "10 Tablets/Strip",
+      "image": "/images/products/vamachol-xt.jpg",
+      "featured": true,
+      "slide": true
+    },
+    {
+      "id": "primovelle",
+      "name": "Primovelle",
+      "division": "gynec",
+      "tagline": "For effective management of PMS & Mastalgia",
+      "headline": "In PMS and Mastalgia — Power of EPO Tocotrienols",
+      "description": "A natural, safe combination of Evening Primrose Oil and Tocotrienols for effective management of PMS symptoms and cyclic mastalgia — balancing PGE1:PGE2 ratio naturally.",
+      "composition": "Evening Primrose Oil (EPO) B.P. 500mg and Tocotrienols (50%) 30mg",
+      "keyIngredients": [
+        {
+          "name": "Evening Primrose Oil — EPO (500mg)",
+          "benefits": [
+            "Balances PGE1:PGE2 ratio",
+            "Reduces breast tenderness",
+            "Improves PMS symptoms: Irritability, Depression, Fatigue"
+          ]
+        },
+        {
+          "name": "Tocotrienols (50%) 30mg",
+          "benefits": [
+            "Powerful antioxidant",
+            "Reduces pain during cyclic mastalgia",
+            "Anti-inflammatory"
+          ]
+        }
+      ],
+      "indications": [
+        "PMS — Irritability, Depression, Fatigue & Breast Tenderness",
+        "Cyclic Mastalgia",
+        "Hormonal imbalance"
+      ],
+      "dosage": "1–2 Capsules BID for 3–6 Cycles",
+      "packSize": "1×10 Capsules",
+      "image": "/images/products/primovelle.jpeg",
+      "featured": true,
+      "slide": true
+    },
+    {
+      "id": "auramag-d-gynec",
+      "name": "Auramag D",
+      "division": "gynec",
+      "tagline": "Towards a Healthier Pregnancy Journey",
+      "headline": "For Better Maternal Health & Safer Pregnancy Outcomes",
+      "description": "Magnesium Glycine with Vitamin D3 formulated for pregnancy complications — reducing risk of PIH, GDM, preterm birth, leg cramps and supporting healthy foetal growth and development.",
+      "composition": "Magnesium Glycine equivalent to Elemental Magnesium 250mg + Vitamin D3 1000 IU",
+      "keyIngredients": [
+        {
+          "name": "Magnesium Glycine (250mg elemental Mg)",
+          "benefits": [
+            "Support maternal vascular health",
+            "Improve insulin function & glycemic control in GDM",
+            "Maintain metabolic balance during pregnancy",
+            "Promote healthy foetal growth and development"
+          ]
+        },
+        {
+          "name": "Vitamin D3 (1000 IU)",
+          "benefits": [
+            "Supports glucose metabolism in pregnancy",
+            "Improves insulin receptor function",
+            "Enhancing insulin sensitivity"
+          ]
+        }
+      ],
+      "indications": [
+        "Pregnancy Induced Hypertension (PIH)",
+        "Gestational Diabetes Mellitus (GDM)",
+        "Preterm birth prevention",
+        "Leg cramps in pregnancy",
+        "IUGR prevention",
+        "Low birth weight risk"
+      ],
+      "dosage": "1 to 2 Tablets/Day",
+      "packSize": "1×10 Tablets",
+      "image": "/images/products/auramag-d.jpeg",
+      "featured": false,
+      "slide": false
+    },
+    {
+      "id": "chalixjura-gynec",
+      "name": "Chalixjura",
+      "division": "gynec,ortho,physicians",
+      "tagline": "Where Calcium Meets Absorption Science",
+      "headline": "In Pregnancy, Lactation, Osteoporosis and Post Menopausal Women",
+      "description": "Highly absorbable Calcium Citrate with Magnesium, Zinc and Vitamin D in a patient-friendly chewable tablet — meeting the elevated calcium needs during pregnancy, lactation and menopause.",
+      "composition": "Calcium Citrate 1250mg, Magnesium Sulphate 100mg, Elemental Zinc 4mg, Vitamin D 200 IU",
+      "keyIngredients": [
+        {
+          "name": "Calcium Citrate (1250mg)",
+          "benefits": [
+            "2.5× more absorbable calcium",
+            "Minimal G.I. side effects"
+          ]
+        },
+        {
+          "name": "Magnesium Sulphate (100mg)",
+          "benefits": [
+            "Helps calcium absorption and bone mineralization",
+            "Reduces muscle cramps"
+          ]
+        },
+        {
+          "name": "Vitamin D (200 IU) + Zinc (4mg)",
+          "benefits": [
+            "Facilitates calcium absorption",
+            "Supports bone matrix formation"
+          ]
+        }
+      ],
+      "indications": [
+        "Pregnancy calcium needs",
+        "Lactation support",
+        "Post-menopausal bone loss",
+        "Osteoporosis prevention"
+      ],
+      "dosage": "1 Tablet/day",
+      "packSize": "30 Tablets",
+      "form": "Chewable Tablet — American Icecream Flavor",
+      "image": "/images/products/chalixjura.jpeg",
+      "featured": false,
+      "slide": false
+    },
+    {
+      "id": "auramag-d-physicians",
+      "name": "Auramag D",
+      "division": "physicians",
+      "tagline": "Orthopedic, Gynec, and Physicians Synergy for Total Health",
+      "headline": "The Bridge Between Orthopedic, Gynec & Physicians Care",
+      "description": "Advanced amino-chelated Magnesium Glycine with Vitamin D3 — a universal formulation trusted by orthopedic surgeons, gynecologists, and physicians alike for bone health, muscle function, and overall systemic wellness.",
+      "composition": "Magnesium Glycine equivalent to Elemental Magnesium 250mg + Vitamin D3 1000 IU",
+      "keyIngredients": [
+        {
+          "name": "Magnesium Glycine (250mg elemental Mg)",
+          "benefits": [
+            "Superior bioavailability vs oxide/carbonate",
+            "Supports musculoskeletal health across specialties",
+            "Improves neuromuscular balance",
+            "Broad therapeutic application"
+          ]
+        },
+        {
+          "name": "Vitamin D3 (1000 IU)",
+          "benefits": [
+            "Bone matrix formation & mineralization",
+            "Supports immune and metabolic function",
+            "Enhances calcium absorption",
+            "Essential for overall systemic health"
+          ]
+        }
+      ],
+      "indications": [
+        "Magnesium deficiency",
+        "Bone health support",
+        "Muscle weakness & cramps",
+        "General wellness supplementation",
+        "Pre/Post-operative support",
+        "Chronic fatigue management"
+      ],
+      "dosage": "1 to 2 Tablets/Day",
+      "packSize": "1×10 Tablets",
+      "image": "/images/products/auramag-d.jpeg",
+      "featured": true,
+      "slide": false
+    }
+  ]
+}

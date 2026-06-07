@@ -1,0 +1,18 @@
+{
+  "links": [
+    { "label": "Home",     "href": "/" },
+    { "label": "Products", "href": "/products",
+      "children": [
+        { "label": "Orthopedic Division", "href": "/products/ortho" },
+        { "label": "Gynec Division",      "href": "/products/gynec" },
+        { "label": "Physicians Division", "href": "/products/physicians" }
+      ]
+    },
+    { "label": "About",   "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "cta": {
+    "label": "Contact Us",
+    "href": "/contact"
+  }
+}
