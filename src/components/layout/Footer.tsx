@@ -1,12 +1,32 @@
 import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Logo } from "./Logo";
+import { cn } from "@/lib/utils";
 import branchesData from "@/data/branches.json";
 import navData from "@/data/nav.json";
+import productsData from "@/data/products.json";
+import type { DivisionId } from "@/lib/types";
+
+const divisionFooterStyle: Record<DivisionId, string> = {
+  ortho: "text-medjura-teal",
+  gynec: "text-medjura-green",
+  physicians: "text-medjura-pink",
+};
 
 export function Footer() {
   const { company, headquarters } = branchesData;
   const { line1, line2, city, state, pincode } = headquarters.address;
+
+  const productsByDivision = productsData.divisions.map((division) => ({
+    ...division,
+    names: Array.from(
+      new Set(
+        productsData.products
+          .filter((p) => p.division === division.id)
+          .map((p) => p.name)
+      )
+    ),
+  }));
 
   return (
     <footer className="bg-medjura-navy text-white">
@@ -23,6 +43,7 @@ export function Footer() {
             <div className="mt-6 flex gap-3">
               <span className="badge-ortho text-[10px]">Ortho</span>
               <span className="badge-gynec text-[10px]">Gynec</span>
+              <span className="badge-physicians text-[10px]">Physicians</span>
             </div>
           </div>
 
@@ -51,36 +72,25 @@ export function Footer() {
               Our Products
             </h3>
             <div className="space-y-4">
-              <div>
-                <p className="text-xs font-semibold text-medjura-teal uppercase tracking-wider mb-1">Ortho</p>
-                <ul className="space-y-1">
-                  {["Jointcync", "Auramag D", "Mytocarn T+", "Chalixjura"].map((p) => (
-                    <li key={p}>
-                      <Link
-                        href="/products/ortho"
-                        className="text-sm text-white/70 hover:text-white transition-colors"
-                      >
-                        {p}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <p className="text-xs font-semibold text-medjura-green uppercase tracking-wider mb-1">Gynec</p>
-                <ul className="space-y-1">
-                  {["Vamachol-XT", "Primovelle", "Auramag D", "Chalixjura"].map((p) => (
-                    <li key={p}>
-                      <Link
-                        href="/products/gynec"
-                        className="text-sm text-white/70 hover:text-white transition-colors"
-                      >
-                        {p}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {productsByDivision.map((division) => (
+                <div key={division.id}>
+                  <p className={cn("text-xs font-semibold uppercase tracking-wider mb-1", divisionFooterStyle[division.id])}>
+                    {division.label}
+                  </p>
+                  <ul className="space-y-1">
+                    {division.names.map((name) => (
+                      <li key={name}>
+                        <Link
+                          href={`/products/${division.id}`}
+                          className="text-sm text-white/70 hover:text-white transition-colors"
+                        >
+                          {name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
 

@@ -6,7 +6,7 @@ import branchesData from "@/data/branches.json";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Medjura Lifecare Pvt. Ltd. — our mission, vision, and commitment to delivering science-backed Ortho and Gynec pharma formulations across Gujarat.",
+    "Learn about Medjura Lifecare Pvt. Ltd. — our mission, vision, and commitment to delivering science-backed Ortho, Gynec and Physicians pharma formulations across Gujarat.",
 };
 
 const values = [
@@ -25,7 +25,7 @@ const values = [
   {
     icon: HeartHandshake,
     title: "Doctor Trusted",
-    desc: "Built in close collaboration with orthopedic and gynecology specialists.",
+    desc: "Built in close collaboration with orthopedic, gynecology and physician specialists.",
     color: "bg-medjura-lavender/10 text-medjura-lavender",
   },
   {
