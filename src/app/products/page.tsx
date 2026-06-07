@@ -43,7 +43,7 @@ export default function ProductsPage() {
           <h2 className="section-title text-medjura-navy text-center mb-10">Our Divisions</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {divisions.map((div) => {
-              const style = divisionCardStyle[div.id];
+              const style = divisionCardStyle[div.id as DivisionId];
               return (
                 <Link
                   key={div.id}

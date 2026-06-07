@@ -74,7 +74,7 @@ export function Footer() {
             <div className="space-y-4">
               {productsByDivision.map((division) => (
                 <div key={division.id}>
-                  <p className={cn("text-xs font-semibold uppercase tracking-wider mb-1", divisionFooterStyle[division.id])}>
+                  <p className={cn("text-xs font-semibold uppercase tracking-wider mb-1", divisionFooterStyle[division.id as DivisionId])}>
                     {division.label}
                   </p>
                   <ul className="space-y-1">
