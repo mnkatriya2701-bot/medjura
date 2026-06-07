@@ -43,11 +43,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Medjura Lifecare Pvt. Ltd." }],
   creator: "Medjura Lifecare Pvt. Ltd.",
-  metadataBase: new URL("https://medjuralifecre.com"),
+  metadataBase: new URL("https://medjuralifecare.com"),
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://medjuralifecre.com",
+    url: "https://medjuralifecare.com",
     siteName: "Medjura Lifecare",
     title: "Medjura Lifecare Pvt. Ltd. | Ortho & Gynec Pharma",
     description:
@@ -72,6 +72,9 @@ export default function RootLayout({
       className={`${inter.variable} ${plusJakarta.variable} h-full scroll-smooth antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-gray-900">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"
@@ -84,9 +87,6 @@ export default function RootLayout({
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
       </body>
     </html>
   );
