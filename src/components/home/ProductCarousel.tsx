@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, ArrowRight, Shield, Award, MapPin } from "lucide-react";
@@ -33,6 +33,21 @@ export function ProductCarousel() {
 
   const next = useCallback(() => goTo(current + 1), [current, goTo]);
   const prev = useCallback(() => goTo(current - 1), [current, goTo]);
+
+  const touchStartX = useRef<number | null>(null);
+  const SWIPE_THRESHOLD = 50;
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const deltaX = e.changedTouches[0].clientX - touchStartX.current;
+    if (deltaX > SWIPE_THRESHOLD) prev();
+    else if (deltaX < -SWIPE_THRESHOLD) next();
+    touchStartX.current = null;
+  };
 
   useEffect(() => {
     const t = setInterval(next, 4500);
@@ -123,7 +138,11 @@ export function ProductCarousel() {
               <div className={cn("absolute inset-8 rounded-full bg-gradient-to-br blur-3xl transition-all duration-700", style.glowColor, "to-transparent")} />
 
               {/* Slides */}
-              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <div
+                className="relative aspect-[4/3] rounded-2xl overflow-hidden touch-pan-y"
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+              >
                 {slides.map((s, i) => (
                   <div
                     key={s.id}

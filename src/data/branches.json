@@ -16,7 +16,7 @@
     "type": "headquarters",
     "address": {
       "line1": "GF-14, Shree Ratna Complex",
-      "line2": "Near Krishnanagar Bus Stand, Akhbarnagar Road, Nava Vadaj",
+      "line2": "Nava Vadaj",
       "city": "Ahmedabad",
       "district": "Ahmedabad",
       "state": "Gujarat",
@@ -25,7 +25,6 @@
     },
     "contact": {
       "phone": "+91 74052 78264",
-      "phones": ["+91 74052 78264", "+91 73591 17669", "+91 99256 96085"],
       "email": "medjuralifecare@gmail.com"
     },
     "coordinates": {
@@ -43,7 +42,7 @@
       "region": "Central Gujarat",
       "address": {
         "line1": "GF-14, Shree Ratna Complex",
-        "line2": "Near Krishnanagar Bus Stand, Akhbarnagar Road, Nava Vadaj",
+        "line2": "Nava Vadaj",
         "city": "Ahmedabad",
         "district": "Ahmedabad",
         "state": "Gujarat",
