@@ -53,7 +53,6 @@ export interface Address {
 
 export interface Contact {
   phone: string;
-  phones?: string[];
   email: string;
   mr?: string;
 }
