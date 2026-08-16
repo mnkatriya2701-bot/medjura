@@ -16,7 +16,7 @@ const pillars = [
   {
     icon: HeartHandshake,
     title: "Doctor Trusted",
-    description: "Built in close collaboration with orthopedic, gynecology, and physicians specialists across Gujarat.",
+    description: "Built in close collaboration with orthopedic, gynecology, and physicians specialists across India.",
     color: "text-medjura-purple bg-medjura-purple/10",
   },
   {

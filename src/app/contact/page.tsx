@@ -5,7 +5,7 @@ import branchesData from "@/data/branches.json";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Medjura Lifecare Pvt. Ltd. — GF-14, Shree Ratna Complex, Nava Vadaj, Ahmedabad, Gujarat. Call +91 74052 78264 or email medjuralifecare@gmail.com.",
+    "Get in touch with Medjura Lifecare Pvt. Ltd. — GF-14, Shree Ratna Complex, Nava Vadaj, Ahmedabad, Gujarat. Call +91 74052 78264 or email info@medjuralifecare.com.",
 };
 
 const contactDetails = [
@@ -31,8 +31,8 @@ const contactDetails = [
     icon: Mail,
     label: "Email Us",
     color: "bg-pink-50 text-pink-600",
-    href: "mailto:medjuralifecare@gmail.com",
-    lines: ["medjuralifecare@gmail.com"],
+    href: "mailto:info@medjuralifecare.com",
+    lines: ["info@medjuralifecare.com"],
   },
   {
     icon: Clock,

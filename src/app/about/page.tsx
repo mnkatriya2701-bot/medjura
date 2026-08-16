@@ -6,7 +6,7 @@ import branchesData from "@/data/branches.json";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Medjura Lifecare Pvt. Ltd. — our mission, vision, and commitment to delivering science-backed Ortho, Gynec and Physicians pharma formulations across Gujarat.",
+    "Learn about Medjura Lifecare Pvt. Ltd. — our mission, vision, and commitment to delivering science-backed Ortho, Gynec and Physicians pharma formulations across India.",
 };
 
 const values = [
@@ -65,7 +65,7 @@ export default function AboutPage() {
               Our Story
             </p>
             <h2 className="section-title text-medjura-navy mb-5">
-              Trusted Pharma Company Across Gujarat
+              Trusted Pharma Company across India
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
               Medjura Lifecare Pvt. Ltd. is a dedicated pharma company based in

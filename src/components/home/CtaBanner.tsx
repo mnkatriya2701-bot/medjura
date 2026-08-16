@@ -14,7 +14,7 @@ export function CtaBanner() {
               Partner with Medjura Lifecare
             </h2>
             <p className="mt-2 text-white/85 text-base max-w-xl">
-              Doctors, distributors, and pharmacies across Gujarat trust us for
+              Doctors, distributors, and pharmacies across India trust us for
               quality Orthopedic, Gynec, and Physicians formulations. Get in touch today.
             </p>
           </div>

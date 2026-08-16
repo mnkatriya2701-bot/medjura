@@ -32,7 +32,7 @@ export default function ProductsPage() {
           <h1 className="section-title text-white mb-4">Products</h1>
           <p className="section-subtitle text-white/70">
             Science-backed formulations across three focused therapeutic divisions —
-            trusted by doctors across Gujarat.
+            trusted by doctors across India.
           </p>
         </div>
       </section>

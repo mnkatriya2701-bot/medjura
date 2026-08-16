@@ -69,7 +69,7 @@ export function FeaturedProducts() {
           <h2 className="section-title text-medjura-navy">Featured Products</h2>
           <p className="section-subtitle mx-auto mt-3">
             Clinically backed formulations across our Orthopedic, Gynec, and Physicians divisions —
-            trusted by doctors across Gujarat.
+            trusted by doctors across India.
           </p>
         </div>
 
