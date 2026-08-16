@@ -130,13 +130,13 @@
       "slide": true,
       "divisions": [
         "ortho",
-        "physicians",
-        "gynec"
+        "physicians"
       ]
     },
     {
       "id": "mytocarn-t-plus",
       "name": "Mytocarn T+",
+      "division": "ortho",
       "tagline": "Not just pain control… but tissue-level repair",
       "headline": "Repair the Nerve — Energise the Muscle",
       "description": "A dual-action formula combining L-Carnitine L-Tartrate and Tocotrienols with full therapeutic dose Methylcobalamin — addressing both nerve repair and muscle energy at the cellular level.",
@@ -176,8 +176,7 @@
       "slide": true,
       "divisions": [
         "ortho",
-        "physicians",
-        "gynec"
+        "physicians"
       ]
     },
     {
@@ -226,8 +225,7 @@
       "slide": true,
       "divisions": [
         "gynec",
-        "ortho",
-        "physicians"
+        "ortho"
       ]
     },
     {
@@ -309,7 +307,8 @@
       "featured": true,
       "slide": true,
       "divisions": [
-        "gynec"
+        "gynec",
+        "physicians"
       ]
     },
     {
@@ -495,11 +494,7 @@
     {
       "id": "mytocarn-t-plus-physicians",
       "name": "Mytocarn T+",
-      "division": [
-        "physicians",
-        "gynec",
-        "ortho"
-      ],
+      "division": "physicians",
       "tagline": "A Myocardial Energiser and Nerve Repair Formula",
       "headline": "Repair the Nerve — Energise the Muscle",
       "description": "A dual-action formula pairing L-Carnitine L-Tartrate and Tocotrienols — The Dual Cell Energizer — with full therapeutic-dose Methylcobalamin. Recommended by physicians for patients with metabolic disorders facing cardiovascular risk, congestive heart failure, chronic fatigue syndrome, muscle cramps, and nerve-related complications, because pain relief is temporary but recovery needs repair.",
