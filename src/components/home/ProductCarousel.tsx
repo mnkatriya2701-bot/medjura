@@ -95,7 +95,7 @@ export function ProductCarousel() {
 
             <p className="text-white/70 text-base md:text-lg leading-relaxed mb-8 max-w-md">
               Medjura Lifecare Pvt. Ltd. — trusted pharma company across
-              Gujarat. Science-backed Orthopedic, Gynec, and Physicians
+              India. Science-backed Orthopedic, Gynec, and Physicians
               formulations, delivered with integrity.
             </p>
 
